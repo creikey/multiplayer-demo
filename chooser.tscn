@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://chooser.gd" type="Script" id=1]
+
+[node name="chooser" type="Node2D" index="0"]
+
+script = ExtResource( 1 )
+server_scene_path = "server/server.tscn"
+game_scene_path = "game/game.tscn"
+
+
